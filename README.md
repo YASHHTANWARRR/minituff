@@ -12,4 +12,5 @@ The splitted urdf files are then combined by xacro into a single processed urdf 
 
 All of this is then wrapped in a launch file and run it.
 
-<img width="1258" height="667" alt="image" src="https://github.com/user-attachments/assets/f44d1823-e90d-46a7-947d-ada9867cb01f" />
+<img width="1258" height="667" alt="image" src="https://github.com/user-attachments/assets/356a30f2-0a35-427e-80fd-0b732d704b49" />
+
