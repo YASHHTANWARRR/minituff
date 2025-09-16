@@ -1,0 +1,320 @@
+# Query: Minituff
+# Flags: WordMatch
+
+469 results - 23 files
+
+CMakeLists.txt:
+  2: project(minituff)
+
+package.xml:
+  4:   <name>minituff</name>
+
+README.md:
+  5: It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `minituff` to whatever your project's name is.
+
+build/Minituff/CMakeCache.txt:
+    2: # For build in directory: /home/papa-ki-pari/DV/dev_ws/src/minituff/build/minituff
+  107: CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/home/papa-ki-pari/DV/dev_ws/src/minituff/build/minituff/CMakeFiles/pkgRedirects
+  110: CMAKE_INSTALL_PREFIX:PATH=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/minituff
+  154: CMAKE_PROJECT_NAME:STATIC=minituff
+  222: minituff_BINARY_DIR:STATIC=/home/papa-ki-pari/DV/dev_ws/src/minituff/build/minituff
+  228: minituff_SOURCE_DIR:STATIC=/home/papa-ki-pari/DV/dev_ws/src/minituff
+  243: CMAKE_CACHEFILE_DIR:INTERNAL=/home/papa-ki-pari/DV/dev_ws/src/minituff/build/minituff
+  318: CMAKE_HOME_DIRECTORY:INTERNAL=/home/papa-ki-pari/DV/dev_ws/src/minituff
+
+build/Minituff/colcon_command_prefix_build.sh.env:
+  50: PWD=/home/papa-ki-pari/DV/dev_ws/src/minituff/build/minituff
+
+build/Minituff/CMakeFiles/CMakeConfigureLog.yaml:
+   31:         /home/papa-ki-pari/DV/dev_ws/src/minituff/build/minituff/CMakeFiles/3.28.3/CompilerIdC/a.out
+   53:         /home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+   64:       source: "/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-lCB6sK"
+   65:       binary: "/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-lCB6sK"
+   73:         Change Dir: '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-lCB6sK'
+   77:         gmake[1]: Entering directory '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-lCB6sK'
+  131:         gmake[1]: Leaving directory '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-lCB6sK'
+  165:         ignore line: [Change Dir: '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-lCB6sK']
+  169:         ignore line: [gmake[1]: Entering directory '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-lCB6sK']
+  296:       source: "/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-EpbUa4"
+  297:       binary: "/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-EpbUa4"
+  305:         Change Dir: '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-EpbUa4'
+  309:         gmake[1]: Entering directory '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-EpbUa4'
+  367:         gmake[1]: Leaving directory '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-EpbUa4'
+  407:         ignore line: [Change Dir: '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-EpbUa4']
+  411:         ignore line: [gmake[1]: Entering directory '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff/CMakeFiles/CMakeScratch/TryCompile-EpbUa4']
+
+install/local_setup.sh:
+  9: _colcon_prefix_sh_COLCON_CURRENT_PREFIX="/home/papa-ki-pari/DV/dev_ws/src/minituff/install"
+
+install/setup.sh:
+  10: _colcon_prefix_chain_sh_COLCON_CURRENT_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install
+
+install/Minituff/share/Minituff/package.bash:
+  28: _colcon_package_bash_source_script "$_colcon_package_bash_COLCON_CURRENT_PREFIX/share/Minituff/package.sh"
+
+install/Minituff/share/Minituff/package.zsh:
+  38: _colcon_package_zsh_source_script "$_colcon_package_zsh_COLCON_CURRENT_PREFIX/share/Minituff/package.sh"
+
+launch/rsp.launch.py:
+  19:     pkg_path = os.path.join(get_package_share_directory('Minituff'))
+
+log/build_2025-09-02_01-55-03/events.log:
+   2: [0.000400] (Minituff) JobQueued: {'identifier': 'Minituff', 'dependencies': OrderedDict()}
+   3: [0.000640] (Minituff) JobStarted: {'identifier': 'Minituff'}
+   4: [0.011137] (Minituff) JobProgress: {'identifier': 'Minituff', 'progress': 'cmake'}
+   5: [0.011391] (Minituff) Command: {'cmd': ['/usr/bin/cmake', '/home/papa-ki-pari/DV/dev_ws/src/minituff', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff'], 'cwd': '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'papa-ki-pari', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/papa-ki-pari/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/205/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'HOME': '/home/papa-ki-pari', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.103.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/205/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/papa-ki-pari/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/sn⟪ 4368 characters skipped ⟫K_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7e8882f83720479601ef97fc68b64c50', 'XDG_DATA_DIRS': '/home/papa-ki-pari/snap/code/205/.local/share:/home/papa-ki-pari/snap/code/205:/snap/code/205/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA='}), 'shell': False}
+   7: [0.125320] (Minituff) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+   9: [0.205134] (Minituff) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+  10: [0.219379] (Minituff) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+  11: [0.288213] (Minituff) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+  12: [0.296546] (Minituff) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+  13: [0.296825] (Minituff) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+  14: [0.297770] (Minituff) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+  16: [0.304964] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+  17: [0.374364] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+  18: [0.380888] (Minituff) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+  19: [0.381149] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+  20: [0.381345] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+  21: [0.387042] (Minituff) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+  22: [0.387148] (Minituff) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+  23: [0.387203] (Minituff) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+  24: [0.387246] (Minituff) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+  25: [0.387290] (Minituff) StderrLine: {'line': b'\n'}
+  26: [0.387331] (Minituff) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+  27: [0.387373] (Minituff) StderrLine: {'line': b'  any of the following names:\n'}
+  28: [0.387412] (Minituff) StderrLine: {'line': b'\n'}
+  29: [0.387452] (Minituff) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+  30: [0.387490] (Minituff) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+  31: [0.387531] (Minituff) StderrLine: {'line': b'\n'}
+  32: [0.387573] (Minituff) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+  33: [0.387614] (Minituff) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+  34: [0.387658] (Minituff) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+  35: [0.387698] (Minituff) StderrLine: {'line': b'  has been installed.\n'}
+  36: [0.387735] (Minituff) StderrLine: {'line': b'\n'}
+  37: [0.387776] (Minituff) StderrLine: {'line': b'\x1b[0m\n'}
+  38: [0.387823] (Minituff) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+  39: [0.389706] (Minituff) CommandEnded: {'returncode': 1}
+  41: [0.404550] (Minituff) JobEnded: {'identifier': 'Minituff', 'rc': 1}
+
+log/build_2025-09-02_01-55-03/logger_all.log:
+   9: [0.089s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/papa-ki-pari/DV/dev_ws/src/minituff'
+  19: [0.109s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'Minituff'
+  28: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_args' from command line to 'None'
+  29: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_target' from command line to 'None'
+  30: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+  31: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_clean_cache' from command line to 'False'
+  32: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_clean_first' from command line to 'False'
+  33: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_force_configure' from command line to 'False'
+  34: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'ament_cmake_args' from command line to 'None'
+  35: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'catkin_cmake_args' from command line to 'None'
+  36: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'catkin_skip_building_tests' from command line to 'False'
+  37: [0.126s] DEBUG:colcon.colcon_core.verb:Building package 'Minituff' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff', 'merge_install': False, 'path': '/home/papa-ki-pari/DV/dev_ws/src/minituff', 'symlink_install': True, 'test_result_base': None}
+  40: [0.128s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papa-ki-pari/DV/dev_ws/src/minituff' with build type 'ament_cmake'
+  41: [0.128s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papa-ki-pari/DV/dev_ws/src/minituff'
+  45: [0.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  46: [0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  47: [0.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Minituff)
+  48: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff' for CMake module files
+  49: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff' for CMake config files
+  50: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/bin'
+  51: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/lib/pkgconfig/Minituff.pc'
+  52: [0.529s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/lib/python3.12/site-packages'
+  53: [0.530s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/bin'
+  54: [0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.ps1'
+  55: [0.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.dsv'
+  56: [0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.sh'
+  57: [0.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.bash'
+  58: [0.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.zsh'
+  59: [0.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/colcon-core/packages/Minituff)
+  68: [0.558s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.ps1'
+  69: [0.559s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/_local_setup_util_ps1.py'
+  70: [0.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.ps1'
+  71: [0.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.sh'
+  72: [0.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/_local_setup_util_sh.py'
+  73: [0.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.sh'
+  74: [0.564s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.bash'
+  75: [0.564s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.bash'
+  76: [0.565s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.zsh'
+  77: [0.566s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.zsh'
+
+log/build_2025-09-02_01-55-03/Minituff/command.log:
+  1: Invoking command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  2: Invoked command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+
+log/build_2025-09-02_01-55-03/Minituff/streams.log:
+   1: [0.011s] Invoking command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  32: [0.389s] Invoked command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+
+log/latest/events.log:
+   2: [0.000400] (Minituff) JobQueued: {'identifier': 'Minituff', 'dependencies': OrderedDict()}
+   3: [0.000640] (Minituff) JobStarted: {'identifier': 'Minituff'}
+   4: [0.011137] (Minituff) JobProgress: {'identifier': 'Minituff', 'progress': 'cmake'}
+   5: [0.011391] (Minituff) Command: {'cmd': ['/usr/bin/cmake', '/home/papa-ki-pari/DV/dev_ws/src/minituff', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff'], 'cwd': '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'papa-ki-pari', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/papa-ki-pari/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/205/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'HOME': '/home/papa-ki-pari', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.103.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/205/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/papa-ki-pari/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/sn⟪ 4368 characters skipped ⟫K_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7e8882f83720479601ef97fc68b64c50', 'XDG_DATA_DIRS': '/home/papa-ki-pari/snap/code/205/.local/share:/home/papa-ki-pari/snap/code/205:/snap/code/205/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA='}), 'shell': False}
+   7: [0.125320] (Minituff) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+   9: [0.205134] (Minituff) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+  10: [0.219379] (Minituff) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+  11: [0.288213] (Minituff) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+  12: [0.296546] (Minituff) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+  13: [0.296825] (Minituff) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+  14: [0.297770] (Minituff) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+  16: [0.304964] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+  17: [0.374364] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+  18: [0.380888] (Minituff) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+  19: [0.381149] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+  20: [0.381345] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+  21: [0.387042] (Minituff) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+  22: [0.387148] (Minituff) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+  23: [0.387203] (Minituff) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+  24: [0.387246] (Minituff) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+  25: [0.387290] (Minituff) StderrLine: {'line': b'\n'}
+  26: [0.387331] (Minituff) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+  27: [0.387373] (Minituff) StderrLine: {'line': b'  any of the following names:\n'}
+  28: [0.387412] (Minituff) StderrLine: {'line': b'\n'}
+  29: [0.387452] (Minituff) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+  30: [0.387490] (Minituff) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+  31: [0.387531] (Minituff) StderrLine: {'line': b'\n'}
+  32: [0.387573] (Minituff) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+  33: [0.387614] (Minituff) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+  34: [0.387658] (Minituff) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+  35: [0.387698] (Minituff) StderrLine: {'line': b'  has been installed.\n'}
+  36: [0.387735] (Minituff) StderrLine: {'line': b'\n'}
+  37: [0.387776] (Minituff) StderrLine: {'line': b'\x1b[0m\n'}
+  38: [0.387823] (Minituff) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+  39: [0.389706] (Minituff) CommandEnded: {'returncode': 1}
+  41: [0.404550] (Minituff) JobEnded: {'identifier': 'Minituff', 'rc': 1}
+
+log/latest/logger_all.log:
+   9: [0.089s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/papa-ki-pari/DV/dev_ws/src/minituff'
+  19: [0.109s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'Minituff'
+  28: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_args' from command line to 'None'
+  29: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_target' from command line to 'None'
+  30: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+  31: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_clean_cache' from command line to 'False'
+  32: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_clean_first' from command line to 'False'
+  33: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_force_configure' from command line to 'False'
+  34: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'ament_cmake_args' from command line to 'None'
+  35: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'catkin_cmake_args' from command line to 'None'
+  36: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'catkin_skip_building_tests' from command line to 'False'
+  37: [0.126s] DEBUG:colcon.colcon_core.verb:Building package 'Minituff' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff', 'merge_install': False, 'path': '/home/papa-ki-pari/DV/dev_ws/src/minituff', 'symlink_install': True, 'test_result_base': None}
+  40: [0.128s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papa-ki-pari/DV/dev_ws/src/minituff' with build type 'ament_cmake'
+  41: [0.128s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papa-ki-pari/DV/dev_ws/src/minituff'
+  45: [0.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  46: [0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  47: [0.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Minituff)
+  48: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff' for CMake module files
+  49: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff' for CMake config files
+  50: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/bin'
+  51: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/lib/pkgconfig/Minituff.pc'
+  52: [0.529s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/lib/python3.12/site-packages'
+  53: [0.530s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/bin'
+  54: [0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.ps1'
+  55: [0.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.dsv'
+  56: [0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.sh'
+  57: [0.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.bash'
+  58: [0.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.zsh'
+  59: [0.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/colcon-core/packages/Minituff)
+  68: [0.558s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.ps1'
+  69: [0.559s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/_local_setup_util_ps1.py'
+  70: [0.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.ps1'
+  71: [0.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.sh'
+  72: [0.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/_local_setup_util_sh.py'
+  73: [0.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.sh'
+  74: [0.564s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.bash'
+  75: [0.564s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.bash'
+  76: [0.565s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.zsh'
+  77: [0.566s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.zsh'
+
+log/latest/Minituff/command.log:
+  1: Invoking command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  2: Invoked command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+
+log/latest/Minituff/streams.log:
+   1: [0.011s] Invoking command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  32: [0.389s] Invoked command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+
+log/latest_build/events.log:
+   2: [0.000400] (Minituff) JobQueued: {'identifier': 'Minituff', 'dependencies': OrderedDict()}
+   3: [0.000640] (Minituff) JobStarted: {'identifier': 'Minituff'}
+   4: [0.011137] (Minituff) JobProgress: {'identifier': 'Minituff', 'progress': 'cmake'}
+   5: [0.011391] (Minituff) Command: {'cmd': ['/usr/bin/cmake', '/home/papa-ki-pari/DV/dev_ws/src/minituff', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff'], 'cwd': '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'papa-ki-pari', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/papa-ki-pari/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/205/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'HOME': '/home/papa-ki-pari', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.103.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/205/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/papa-ki-pari/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/sn⟪ 4368 characters skipped ⟫K_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7e8882f83720479601ef97fc68b64c50', 'XDG_DATA_DIRS': '/home/papa-ki-pari/snap/code/205/.local/share:/home/papa-ki-pari/snap/code/205:/snap/code/205/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA='}), 'shell': False}
+   7: [0.125320] (Minituff) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+   9: [0.205134] (Minituff) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+  10: [0.219379] (Minituff) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+  11: [0.288213] (Minituff) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+  12: [0.296546] (Minituff) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+  13: [0.296825] (Minituff) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+  14: [0.297770] (Minituff) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+  16: [0.304964] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+  17: [0.374364] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+  18: [0.380888] (Minituff) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+  19: [0.381149] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+  20: [0.381345] (Minituff) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+  21: [0.387042] (Minituff) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+  22: [0.387148] (Minituff) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+  23: [0.387203] (Minituff) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+  24: [0.387246] (Minituff) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+  25: [0.387290] (Minituff) StderrLine: {'line': b'\n'}
+  26: [0.387331] (Minituff) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+  27: [0.387373] (Minituff) StderrLine: {'line': b'  any of the following names:\n'}
+  28: [0.387412] (Minituff) StderrLine: {'line': b'\n'}
+  29: [0.387452] (Minituff) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+  30: [0.387490] (Minituff) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+  31: [0.387531] (Minituff) StderrLine: {'line': b'\n'}
+  32: [0.387573] (Minituff) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+  33: [0.387614] (Minituff) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+  34: [0.387658] (Minituff) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+  35: [0.387698] (Minituff) StderrLine: {'line': b'  has been installed.\n'}
+  36: [0.387735] (Minituff) StderrLine: {'line': b'\n'}
+  37: [0.387776] (Minituff) StderrLine: {'line': b'\x1b[0m\n'}
+  38: [0.387823] (Minituff) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+  39: [0.389706] (Minituff) CommandEnded: {'returncode': 1}
+  41: [0.404550] (Minituff) JobEnded: {'identifier': 'Minituff', 'rc': 1}
+
+log/latest_build/logger_all.log:
+   9: [0.089s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/papa-ki-pari/DV/dev_ws/src/minituff'
+  19: [0.109s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'Minituff'
+  28: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_args' from command line to 'None'
+  29: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_target' from command line to 'None'
+  30: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+  31: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_clean_cache' from command line to 'False'
+  32: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_clean_first' from command line to 'False'
+  33: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'cmake_force_configure' from command line to 'False'
+  34: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'ament_cmake_args' from command line to 'None'
+  35: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'catkin_cmake_args' from command line to 'None'
+  36: [0.126s] Level 5:colcon.colcon_core.verb:set package 'Minituff' build argument 'catkin_skip_building_tests' from command line to 'False'
+  37: [0.126s] DEBUG:colcon.colcon_core.verb:Building package 'Minituff' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff', 'merge_install': False, 'path': '/home/papa-ki-pari/DV/dev_ws/src/minituff', 'symlink_install': True, 'test_result_base': None}
+  40: [0.128s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/papa-ki-pari/DV/dev_ws/src/minituff' with build type 'ament_cmake'
+  41: [0.128s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/papa-ki-pari/DV/dev_ws/src/minituff'
+  45: [0.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  46: [0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  47: [0.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Minituff)
+  48: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff' for CMake module files
+  49: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff' for CMake config files
+  50: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/bin'
+  51: [0.528s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/lib/pkgconfig/Minituff.pc'
+  52: [0.529s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/lib/python3.12/site-packages'
+  53: [0.530s] Level 1:colcon.colcon_core.environment:checking '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/bin'
+  54: [0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.ps1'
+  55: [0.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.dsv'
+  56: [0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.sh'
+  57: [0.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.bash'
+  58: [0.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/Minituff/package.zsh'
+  59: [0.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff/share/colcon-core/packages/Minituff)
+  68: [0.558s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.ps1'
+  69: [0.559s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/_local_setup_util_ps1.py'
+  70: [0.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.ps1'
+  71: [0.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.sh'
+  72: [0.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/_local_setup_util_sh.py'
+  73: [0.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.sh'
+  74: [0.564s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.bash'
+  75: [0.564s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.bash'
+  76: [0.565s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/local_setup.zsh'
+  77: [0.566s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papa-ki-pari/DV/dev_ws/src/minituff/install/setup.zsh'
+
+log/latest_build/Minituff/command.log:
+  1: Invoking command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  2: Invoked command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+
+log/latest_build/Minituff/streams.log:
+   1: [0.011s] Invoking command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
+  32: [0.389s] Invoked command in '/home/papa-ki-pari/DV/dev_ws/src/minituff/build/Minituff' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/papa-ki-pari/DV/dev_ws/src/minituff -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/papa-ki-pari/DV/dev_ws/src/minituff/install/Minituff
