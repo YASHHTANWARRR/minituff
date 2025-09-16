@@ -35,6 +35,12 @@
             </geometry>
             <material name="blue"/>
         </visual>
+        <collison>
+            <origin xyz="o.15 0 o.075"/>
+            <geometry>
+            
+        </collision>
+
 
     
 
